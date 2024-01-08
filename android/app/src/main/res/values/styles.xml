@@ -72,7 +72,11 @@
   </style> -->
 
   <!-- Main-Application style entry -->
-  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+  <!-- //@FIXME:  Android resource linking failed
+     error: resource style/PSPDFKit.Theme.Default (aka com.rnpspsdfkittest:style/PSPDFKit.Theme.Default) not found.
+     error: failed linking references. -->
+  <style name="AppTheme" parent="PSPDFKit.Theme.Default">
     <item name="android:forceDarkAllowed">false</item>
     <item name="colorPrimary">@color/primary</item>
     <item name="colorPrimaryDark">@color/primary</item>
