@@ -7,7 +7,7 @@ export default class App extends Component<{}> {
   render() {
     return (
       <>
-        <Text>123456789</Text>
+        <Text>Hello Blobs</Text>
       </>
     );
   }
