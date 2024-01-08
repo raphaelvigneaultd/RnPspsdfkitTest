@@ -1,0 +1,91 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <style name="AppSplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:forceDarkAllowed">false</item>
+    <item name="colorPrimaryDark">@color/primary</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:statusBarColor">@color/primary</item>
+  </style>
+
+  <!-- PSPDFKIT https://pspdfkit.com/guides/android/customizing-the-interface/appearance-styling/ -->
+  <!-- <style name="CustomPSPDFKitThemeMainToolbarStyle">
+    <item name="pspdf__backgroundColor">@color/white</item>
+    <item name="pspdf__textColor">@color/black</item>
+    <item name="pspdf__iconsColor">@color/pspdfIcon</item>
+    <item name="pspdf__iconsColorActivated">@color/pspdfIconSelected</item>
+  </style>
+
+  <style name="CustomPSPDFKitThemeActionBarIconsStyle">
+    <item name="pspdf__textColor">@color/black</item>
+    <item name="pspdf__iconsColor">@color/pspdfIcon</item>
+    <item name="pspdf__iconsColorActivated">@color/pspdfIconSelected</item>
+  </style>
+
+  <style name="CustomPSPDFKitThemeContextualToolbar">
+    <item name="pspdf__textColor">@color/black</item>
+    <item name="pspdf__iconsColor">@color/pspdfIcon</item>
+    <item name="pspdf__iconsColorActivated">@color/pspdfIconSelected</item>
+    <item name="pspdf__backgroundColor">@color/white</item>
+    <item name="pspdf__submenuBackgroundColor">@color/white</item>
+  </style>
+
+  <style name="CustomPSPDFKitThemeToolbarTheme">
+    <item name="pspdf__textColor">@color/black</item>
+    <item name="pspdf__iconsColor">@color/pspdfIcon</item>
+    <item name="pspdf__iconsColorActivated">@color/pspdfIconSelected</item>
+  </style>
+
+  <style name="CustomPSPDFKitThemeToolbarPopupTheme">
+    <item name="pspdf__textColor">@color/black</item>
+    <item name="pspdf__iconsColor">@color/pspdfIcon</item>
+    <item name="pspdf__iconsColorActivated">@color/pspdfIconSelected</item>
+  </style>
+
+  <style name="CustomPSPDFKitThemeOutlineView">
+    <item name="pspdf__textColor">@color/black</item>
+    <item name="pspdf__iconsColor">@color/pspdfIcon</item>
+    <item name="pspdf__iconsColorActivated">@color/pspdfIconSelected</item>
+    <item name="pspdf__tabIndicatorColor">@color/pspdfIconSelected</item>
+
+    <item name="pspdf__bookmarksBarIconColor">@color/black</item>
+    <item name="pspdf__bookmarksDragHandleIconColor">@color/black</item>
+    <item name="pspdf__bookmarksDeleteIconColor">@color/actionError</item>
+
+    <item name="pspdf__annotationsBarIconColor">@color/black</item>
+    <item name="pspdf__annotationsDeleteIconColor">@color/actionError</item>
+  </style>
+
+  <style name="CustomPSPDFKitTThemeInlineSearch">
+    <item name="pspdf__textColor">@color/black</item>
+    <item name="pspdf__throbberColor">@color/primary</item>
+    <item name="pspdf__backIconColorTint">@color/pspdfIcon</item>
+    <item name="pspdf__inputFieldTextAppearance">@color/black</item>
+    <item name="pspdf__prevIconColorTint">@color/pspdfIcon</item>
+    <item name="pspdf__nextIconColorTint">@color/pspdfIcon</item>
+  </style>
+
+  <style name="CustomPSPDFKitTThemeModularSearch">
+    <item name="pspdf__textColor">@color/black</item>
+    <item name="pspdf__inputFieldTextColor">@color/black</item>
+    <item name="pspdf__inputFieldHintColor">@color/black</item>
+    <item name="pspdf__listItemTitleColor">@color/black</item>
+    <item name="pspdf__listItemSubtitleColor">@color/black</item>
+  </style> -->
+
+  <!-- Main-Application style entry -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:forceDarkAllowed">false</item>
+    <item name="colorPrimary">@color/primary</item>
+    <item name="colorPrimaryDark">@color/primary</item>
+    <item name="android:textColor">@color/textLight</item>
+    
+    <!-- <item name="pspdf__mainToolbarStyle">@style/CustomPSPDFKitThemeMainToolbarStyle</item>
+    <item name="pspdf__actionBarIconsStyle">@style/CustomPSPDFKitThemeActionBarIconsStyle</item>
+    <item name="pspdf__contextualToolbarStyle">@style/CustomPSPDFKitThemeContextualToolbar</item>
+    <item name="pspdf__toolbarTheme">@style/CustomPSPDFKitThemeToolbarTheme</item>
+    <item name="pspdf__toolbarPopupTheme">@style/CustomPSPDFKitThemeToolbarPopupTheme</item>
+    <item name="pspdf__outlineViewStyle">@style/CustomPSPDFKitThemeOutlineView</item>
+    <item name="pspdf__inlineSearchStyle">@style/CustomPSPDFKitTThemeInlineSearch</item>
+    <item name="pspdf__modularSearchStyle">@style/CustomPSPDFKitTThemeModularSearch</item> -->
+  </style>
+</resources>
+  

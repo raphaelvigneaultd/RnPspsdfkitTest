@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="white">#FAFAFA</color>
+  <color name="black">#7C7C75</color>
+  <color name="primary">#D3E94B</color>
+  <color name="primaryLight">#D3E948</color>
+  <color name="secondary">#F3F1DD</color>
+  <color name="pspdfIcon">#7C7C75</color>
+  <color name="pspdfIconSelected">#D3E94B</color>
+  <color name="actionError">#F40F02</color>
+  <color name="textLight">#757575</color>
+  <color name="iconBackground">#FFFFFF</color>
+</resources>
